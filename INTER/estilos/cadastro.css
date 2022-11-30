@@ -1,0 +1,76 @@
+.input__cadastro{
+    width: 65%;
+    margin: 0 auto;
+    display: block;
+    border-radius: 15px;
+    border: none;
+    margin-bottom: 1.3rem;
+    box-shadow: 4px 4px 3px rgb(72, 72, 72);
+    padding: .8rem 1rem;
+}
+
+.input__cadastro--botao{
+    margin-top: 2rem;
+    background-color: #D77101;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.login__usuario--perfil{
+    width: 14%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 100%;
+    border: 5px solid #fff;
+    background-color: gray;
+    margin-bottom: 2rem;
+    margin-top: 3.5rem;
+}
+
+.informacoes__label{
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: .5rem;
+    padding-left: 3rem;
+    display: block; 
+    color: #f8f8f8;
+}
+.imagem-logo{
+    width: 24vw;
+    max-width: 137px;
+    margin: 0 auto;
+    display: initial;
+}
+.dowload-foto{
+    display: inline-block;
+    width: 3vw;
+    
+    border-radius: 3.2vw;
+}
+.div-carregamento{
+  
+    border-radius: 3.14vw;
+    display: inline;
+    cursor: pointer;
+    margin-top: -18vw;
+
+}
+#picture--input{
+    display: none;
+}
+.picture{
+    cursor: pointer;
+    border-radius: 4.2vw;
+    background-color: rgb(55, 206, 252);
+}
+.picture:hover{
+    color: 777px;
+    background-color: rgb(102, 231, 201);
+    border-radius: 4.2vw;
+}
+.picture:active{
+    color: #aaa;
+    background-color: turquoise;
+    background: "ddd";
+    border-radius: 4.2vw;
+}

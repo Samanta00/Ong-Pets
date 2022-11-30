@@ -1,0 +1,38 @@
+[{
+    "id":0,
+    "nome":"Joana Dayana",
+    "email":"joaninha.day@email.com",
+    "senha":"o545454545L"
+},
+{
+    "id":1,
+    "nome":"Paulo Marque",
+    "email":"Marques.p@gmail.com",
+    "senha":"PPRd!895"
+},
+{
+    "id":2,
+    "nome":"Kaio Guerra",
+    "email":"Kakaio.g@email.com",
+    "senha":"woe4394!ff"
+},
+{
+    "id":3,
+    "nome":"Antônia Rafaella",
+    "email":"antonia.rafaella@email.com",
+    "senha":"souGata!5499"
+},
+{
+    "id":4,
+    "nome":"Rhavi Junior",
+    "email":"rhavi.Henquire@outlook.com",
+    "senha":"contRoll!5334"
+},
+{
+    "id":5,
+    "nome":"Ellen Samanta",
+    "email":"Ellen.Samanta@Outlook.Com",
+    "senha":"rx123456789"
+}
+
+]

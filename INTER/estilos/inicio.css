@@ -1,0 +1,41 @@
+.sessao3txt{
+  
+    text-align: center;
+    display: flex;
+    margin-top: 57vw;
+
+}
+.sessao2txt{
+    /* position: absolute;
+    color:#fff;
+    text-align: center;
+    margin-left: 500px;
+    font-size: 25px;
+
+    
+    width: 250px;
+    height: 30px; */
+    text-align: center;
+   margin-left: 4vw;
+}
+h1{
+    font-size: 2.4vw;
+    text-align: center;
+   
+}
+.animais-resgate{
+    width: 30vw;
+    height: 20vw;
+}
+section{
+    
+    display: inline-block;
+    margin-top: 35vw;
+}
+.animal1 .animal2{
+    display: inline-block;
+
+}
+.animal1{
+    text-align: center;
+}

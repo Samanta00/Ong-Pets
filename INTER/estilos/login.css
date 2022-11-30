@@ -1,0 +1,120 @@
+body{
+    background: url('/INTER/images/istockphoto-856678994-612x612.jpg');
+}
+
+.formulario{
+
+    background-color: #431214;
+    margin: 0 auto;
+    width: 53%;
+    padding: 1.4rem 1rem;
+    border-radius: 20px;
+}
+
+.input__login{
+    border-radius: 20px;
+    padding: .8rem 1rem;
+    display: block;
+    width: 100%;
+    margin-bottom: .8rem;
+}
+
+.recuperar__senha{
+    color: #808080;
+    text-decoration: underline;
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+.botao{
+    color: #fff;
+    background-color: #D77101;
+    border: none;
+    border-radius: 5px;
+    width: 86%;
+    padding: 1rem 1rem;
+    display: block;
+    margin: 0 auto;
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 7px #000;
+}
+
+.botao:hover {
+    scale: 1.1;
+    cursor: pointer;
+}
+.botao_cadastrando{
+    text-align: center;
+    color: black;
+    font-size: 2.6rem;
+}
+
+.logo__maos--patas{
+    width: 100%;
+    max-width: 290px;
+    display: block;
+    margin: 0 auto;
+}
+
+.sessao{
+    margin-top: 9vw;
+}
+.header-descolado{
+    display: flow-root;
+}
+
+.ou{
+    text-align: center;
+    font-size: 1.6rem;
+    padding: 1rem;
+    color: #fff;
+}
+
+.outro__login{
+    padding: .8rem 1rem;
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 1.1rem;
+    border: none;
+}
+
+.login__outros{
+    margin: 0 auto;
+    max-width: 90%;
+    border-bottom: 2px solid #431214;
+}
+
+.outro__login--face{
+    background-color: #3C5997;
+    box-shadow: 3px 3px 1px #1f3157;
+    background-size: 1rem;
+    
+}
+
+.outro__login--google{
+    background-color: #FD5252;
+    box-shadow: 3px 3px 1px #ab2424;
+}
+
+.outro__login-texto{
+    width: 100%;
+}
+
+.botao__cadastro{
+    margin: 0 auto;
+    display: block;
+    color: #431214;
+    padding: 0.2rem;
+    width: 200px;
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
