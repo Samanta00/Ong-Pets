@@ -5,11 +5,6 @@ const controller=require('../controll/controller')
 
 
 
-
-
-
-
-
 router.get('/Doguinho-Ong/login', controller.callPeople)
 
 router.post('/Doguinho-Ong/cadastro', controller.cadastroUser)

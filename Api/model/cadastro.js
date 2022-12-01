@@ -30,6 +30,7 @@ const user=db.sequelize.define("user",
         type:Sequelize.STRING
     }
 })
+//user.sync()
 module.exports={
     user
 }
