@@ -1,0 +1,65 @@
+
+# Título do Projeto
+
+Uma breve descrição sobre o que esse projeto faz e para quem ele é
+
+
+
+# Mãos e Patas
+
+## História de Projeto
+
+### O projeto Mãos e Patas foi um projeto pensado e desenvolvido afim de trazer visualizações, doações ou arrecardações para ongs que tem cujo o objetivo de resgatar animais de rua e em situações de maus tratos ou abandono.
+
+
+#### Retorna todos os Pets registrados pela ong
+
+```http
+  GET http://localhost:3080/peoples/auth/pets
+```
+
+| Parâmetro   | Tipo       | Descrição                           |
+| :---------- | :--------- | :---------------------------------- |
+| `api_key` | `string` | **Obrigatório**. A chave da sua API |
+
+#### Retorna Apenas animais do tipo(gato ou cachorro) específicado pelo usuário
+```http
+  POST http://localhost:3080/peoples/doguinho-ong/pets/filtrarpet
+```
+
+
+#### Adiciona um pet na lista de animais disponíveis pela ong
+```http
+  POST http://localhost:3080/peoples/doguinho-ong/pets
+```
+
+
+#### Modifica todos os dados do pet disponíveis pela ong
+```http
+  PUT http://localhost:3080/peoples/doguinho-ong/pets/updateall/:id
+```
+
+| Parâmetro   | Tipo       | Descrição                                   |
+| :---------- | :--------- | :------------------------------------------ |
+| `id`      | `string` | **Obrigatório**. O ID do pet que você queira modificar |
+
+
+#### Deleta o pet da lista de animais disponíveis pela ong
+```http
+  PUT http://localhost:3080/peoples/doguinho-ong/pets/updateall/:id
+```
+
+| Parâmetro   | Tipo       | Descrição                                   |
+| :---------- | :--------- | :------------------------------------------ |
+| `id`      | `string` | **Obrigatório**. O ID do pet que você queira deletar |
+
+
+
+
+
+## Referência
+
+ - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
+ - [Awesome README](https://github.com/matiassingers/awesome-readme)
+ - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+

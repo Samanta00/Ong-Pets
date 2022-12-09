@@ -1,7 +1,7 @@
 const db=require('./conexao')
 const Sequelize=require('sequelize')
 
-const user=db.sequelize.define("user",
+const User=db.sequelize.define("user",
 
  {
     nome:{
@@ -12,7 +12,7 @@ const user=db.sequelize.define("user",
         type:Sequelize.STRING
     },
     telefone:{
-        type:Sequelize.INTEGER
+        type:Sequelize.STRING
     },
     senha:{
         type:Sequelize.STRING
@@ -31,6 +31,4 @@ const user=db.sequelize.define("user",
     }
 })
 //user.sync()
-module.exports={
-    user
-}
+module.exports=User

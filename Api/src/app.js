@@ -1,17 +1,18 @@
 const express=require('express')
 const cors=require('cors')
-var app = express()
+const app = express()
 
 
 const peopleRotas=require('./routers/routers')
-const conexao=require('./model/conexao')
-const bodyParser=require('body-parser')
 
+const databaseConect=require('./model/conexao')
+const bodyParser=require('body-parser')
+const databaseMongoose=require('../src/model/bancoMongoose')
 
 app.use(cors())
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: true }));
 
+// app.use(bodyParser.urlencoded({ extended: true }));
+app.use(express.json());
 
 // app.use((req,res,next)=>{
 //     res.header('Access-Control-Allow-Origin', '*')
@@ -20,8 +21,15 @@ app.use(bodyParser.urlencoded({ extended: true }));
 //     console.log('Acessou o Middleware!')
 //     next()
 // })
-conexao.mysqlConection
+
 app.use('/peoples', peopleRotas)
 
+
+app.get('/', (req,res)=>{
+      res.status(200).send('Bem vindo(a) a Ong 4 patas')
+  
+})
+// databaseConect.mysqlConection
+databaseMongoose.connect()
 
 module.exports=app

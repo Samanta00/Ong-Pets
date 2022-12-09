@@ -1,0 +1,211 @@
+[{
+    "id":0,
+    "nome":"Teodoro",
+    "raca":"Viralata",
+    "sexo":"masculino",
+    "peso":23.40,
+    "doente":false,
+    "deficiente:":false,
+    "idade":1.5,
+    "tipo":"cachorro",
+   
+    "vacinacao":{
+            "V8":true,
+            "Gripe Canina":false,
+            "Giárdia":false
+    }
+
+},
+{
+    "id":1,
+    "nome":"Margo",
+    "raca":"Labrador",
+    "sexo":"Feminino",
+    "peso":69.80,
+    "doente":true,
+    "deficiente:":true,
+    "idade":4.9,
+    "tipo":"cachorro",
+    "vacinacao":{
+        "V8":false,
+        "Gripe Canina":false,
+        "Giárdia":true
+}
+},
+
+
+{
+    "id":2,
+    "nome":"Toddy",
+    "raca":"Viralata",
+    "sexo":"masculino",
+    "peso":50.40,
+    "doente":false,
+    "deficiente:":true,
+    "idade":0.5,
+    "tipo":"cachorro",
+    "vacinacao":{
+        "V8":true,
+        "Gripe Canina":true,
+        "Giárdia":true
+}
+},
+{
+    "id":3,
+    "nome":"Snoopy",
+    "raca":"lulu da Pomerânia",
+    "sexo":"masculino",
+    "peso":23.70,
+    "doente":false,
+    "deficiente:":false,
+    "idade":14.5,
+    "tipo":"cachorro",
+    "vacinacao":{
+        "V8":true,
+        "Gripe Canina":false,
+        "Giárdia":false
+}
+},
+{
+    "id":4,
+    "nome":"Trelinha",
+    "raca":"Viralata",
+    "sexo":"Feminino",
+    "peso":40.40,
+    "doente":false,
+    "deficiente:":false,
+    "idade":0.4,
+    "tipo":"cachorro",
+    "vacinacao":{
+        "V8":true,
+        "Gripe Canina":false,
+        "Giárdia":false
+}
+},
+{
+    "id":5,
+    "nome":"Lupita",
+    "raca":"Viralata",
+    "sexo":"Feminino",
+    "peso":89.40,
+    "doente":false,
+    "deficiente:":false,
+    "idade":0.2,
+    "tipo":"cachorro",
+    "vacinacao":{
+        "V8":true,
+        "Gripe Canina":false,
+        "Giárdia":false
+}
+},
+{
+    "id":6,
+    "nome":"Marcefelina",
+    "raca":"Viralata",
+    "sexo":"Feminino",
+    "peso":30.20,
+    "doente":false,
+    "deficiente:":false,
+    "idade":1.5,
+    "tipo":"gato",
+    "vacinacao":{
+        "V3":false,
+        "raiva":false,
+        "48":false
+}
+},
+
+
+
+
+{
+    "id":7,
+    "nome":"Nino",
+    "raca":"Siamês",
+    "sexo":"masculino",
+    "peso":15.80,
+    "doente":false,
+    "deficiente:":true,
+    "idade":7.9,
+    "tipo":"gato",
+    "vacinacao":{
+        "V3":false,
+        "raiva":false,
+        "48":false
+}
+},
+
+{
+    "id":8,
+    "nome":"Milk",
+    "raca":"Ashera",
+    "sexo":"Feminino",
+    "peso":36.40,
+    "doente":false,
+    "deficiente:":false,
+    "idade":0.5,
+    "tipo":"gato",
+    "vacinacao":{
+        "V3":false,
+        "raiva":true,
+        "48":false
+}
+},
+
+{
+    "id":9,
+    "nome":"Shiva",
+    "raca":"viralata",
+    "sexo":"Femnino",
+    "peso":23.70,
+    "doente":true,
+    "deficiente:":false,
+    "idade":4.5,
+    "tipo":"gato",
+    "vacinacao":{
+        "V3":true,
+        "raiva":false,
+        "48":true
+}
+
+},
+{
+    "id":10,
+    "nome":"Rico",
+    "raca":"Angorá",
+    "sexo":"masculino",
+    "peso":40.40,
+    "doente":true,
+    "deficiente:":false,
+    "idade":2.4,
+    "tipo":"gato",
+    "vacinacao":{
+        "V3":true,
+        "raiva":false,
+        "48":false
+}
+
+
+},
+{
+    "id":11,
+    "nome":"Lulu",
+    "raca":"persa",
+    "sexo":"Feminino",
+    "peso":19.40,
+    "doente":true,
+    "deficiente:":false,
+    "idade":0.6,
+    "tipo":"gato",
+    "vacinacao":{
+        "V3":true,
+        "raiva":true,
+        "48":false
+}
+
+
+}
+
+
+
+]
