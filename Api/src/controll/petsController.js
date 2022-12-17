@@ -8,6 +8,21 @@ const allPets=async(req,res)=>{
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 const findPet=async(req,res)=>{
     const {tipo}=req.body
     const  allPets = await banco.petsEstimacao("pets-Banco")
@@ -52,7 +67,6 @@ const adicionarPet=async(req,res)=>{
         tipo:tipo,
         Adotado:Adotado
         }
-    
         allPets.push(cadastroPet)
         res.status(201).send(allPets)
         }
@@ -60,7 +74,6 @@ const adicionarPet=async(req,res)=>{
             res.status(404).json({message:'Algum erro Não específico foi encontrado'})
         }
     }
-    
     catch(error){
         res.status(500).json({message:error})
     }

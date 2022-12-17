@@ -16,7 +16,7 @@ botao.addEventListener('click', function (event){
     // console.log(email)
     // console.log(senha)
 
-    fetch('http://localhost:3081/peoples/Doguinho-Ong/cadastros').then((response)=>{
+    fetch('http://localhost:3080/peoples/auth/login').then((response)=>{
         response.json().then((data)=>{
             // console.log(data)
             let dadosBanco=data
@@ -44,8 +44,8 @@ async function validandoLogin(Uemail,Usenha,dadosBanco){
             encaminhamento('acessou')
         }
         else{
-            console.log('não deu certo :( ')
-            // window.alert('alguma informação foi passada errada')
+            
+            window.alert('alguma informação foi passada errada')
         }
        
     });

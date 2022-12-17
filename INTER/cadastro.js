@@ -1,4 +1,4 @@
-fetch('http://localhost:3081/peoples/Doguinho-Ong/cadastros').then((response)=>{
+fetch('http://localhost:3080/peoples/auth/login').then((response)=>{
     response.json().then((data)=>{
         // console.log(data)
         let dadosBanco=data
